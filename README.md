@@ -50,4 +50,4 @@ Student → Enrollment ← Course
 3. Compile the project:
    javac com/airtribe/learntrack/Main.java
 4. Run the application:
-   java com.airtribe.learntrack.ui.Main
+5. java com.airtribe.learntrack.Main
