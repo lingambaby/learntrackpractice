@@ -31,4 +31,23 @@ collections, exception handling, and clean code practices.
 - ArrayList
 - Console-based UI
 
+
 ## Package Structure
+- entity – Core domain classes (Student, Course, Enrollment)
+- service – Business logic
+- ui – Console-based menu and user interaction
+- exception – Custom exceptions
+- util – Utility/helper classes
+## Class Diagram
+Person
+ └── Student
+
+Student → Enrollment ← Course
+
+## How to Compile and Run
+1. Open the project folder on your system
+2. Navigate to the src folder
+3. Compile the project:
+   javac com/airtribe/learntrack/Main.java
+4. Run the application:
+   java com.airtribe.learntrack.ui.Main
